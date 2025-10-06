@@ -20,10 +20,6 @@ npm start
 
 Ứng dụng sẽ chạy tại `http://localhost:3000`
 
-## Cấu hình
-
-Tạo file `.env` với nội dung:
-
 ## Cấu trúc thư mục
 
 ```
@@ -51,8 +47,6 @@ src/
 
 ## API Endpoints
 
-Backend cần cung cấp các endpoints:
-
 - `POST /api/treasure-hunt/solve` - Giải bài toán
 - `GET /api/treasure-hunt/history` - Lấy lịch sử
 - `GET /api/treasure-hunt/:id` - Chi tiết bài toán
@@ -64,3 +58,4 @@ Backend cần cung cấp các endpoints:
 - **p**: 1 ≤ p ≤ n × m
 - **Ma trận**: Mỗi ô phải có giá trị từ 1 đến p
 - **Rương kho báu**: Phải có ít nhất 1 ô có giá trị p
+
